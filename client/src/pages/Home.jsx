@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import useAuth from '../hooks/useAuth';
 import useUser from '../hooks/useUser';
 import { FaCopy } from 'react-icons/fa';
-import { toast } from 'react-hot-toast'; // Import the toast function
+import { toast } from 'react-hot-toast';
 
 export default function Home() {
     const { user } = useAuth();
